@@ -1,6 +1,1 @@
-
-const revealEls = document.querySelectorAll('.reveal');
-const obs = new IntersectionObserver((entries)=>{
-  for(const e of entries){ if(e.isIntersecting){ e.target.classList.add('in'); obs.unobserve(e.target); } }
-},{threshold:.15});
-revealEls.forEach(el=>obs.observe(el));
+const R=document.querySelectorAll(".reveal");const O=new IntersectionObserver(e=>{for(const t of e)t.isIntersecting&&(t.target.classList.add("in"),O.unobserve(t.target))},{threshold:.15});R.forEach(e=>O.observe(e));
