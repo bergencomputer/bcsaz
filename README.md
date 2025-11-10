@@ -1,13 +1,10 @@
-# Bergen Computer Solutions — V5 SEO Landing Pages
+# Bergen Computer Solutions — V7 (Fortune-500 polish)
 
-**Production URL:** https://bergencomputer.github.io/bcsaz
+Public URL: https://bergencomputer.github.io/bcsaz
+- Global `<base href="/bcsaz/">` fixes all links (logo + nav + service pages)
+- CDN assets via jsDelivr: https://cdn.jsdelivr.net/gh/bergencomputer/bcsaz@main/assets/style.css, https://cdn.jsdelivr.net/gh/bergencomputer/bcsaz@main/assets/script.js
+- LocalBusiness + WebSite + BreadcrumbList + Service + FAQPage JSON-LD
+- Reviews page + Google review CTA across site; embedded map on Contact
+- Minified CSS/JS, sticky glass nav, animated accents, mobile-first
 
-- Per-service landing pages with **Service** + **FAQPage** schema
-- Canonicals, OG/Twitter, breadcrumbs
-- Minified CSS/JS on **jsDelivr CDN**: 
-  - https://cdn.jsdelivr.net/gh/bergencomputer/bcsaz@main/assets/style.css
-  - https://cdn.jsdelivr.net/gh/bergencomputer/bcsaz@main/assets/script.js
-- Mobile-first, fast animations, system fonts only
-- `.nojekyll` added for GitHub Pages
-
-Deploy: commit all files to repo root (`bcsaz`), enable Pages (main / root).
+Deploy: push to repo root, enable GitHub Pages (main / root).
